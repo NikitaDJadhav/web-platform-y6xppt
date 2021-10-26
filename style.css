@@ -1,0 +1,40 @@
+#fsi{
+  width: 250px; 
+  height: 25px;
+  border-radius: 5px;
+}
+
+#tsi{
+  width: 250px; 
+   height: 25px;
+   border-radius: 5px;
+}
+
+#ip{
+  width: 248px;  
+  height: 23px;
+  border-radius: 5px;
+  background-color: #FDFF8B;
+}
+
+button{
+  width: 80px;  
+  height: 30px;
+  border-radius: 5px; 
+  background-color: #438DF7;
+  border-color: #2F82FA;
+  color: white;
+}
+
+div{
+  width: 400px; 
+  height: 45px;
+  background-color: #D2D2D3; 
+  align-items: center;
+}
+
+#ci{
+  padding-top: 10px; 
+  margin-left: 20px; 
+  color: green;
+}

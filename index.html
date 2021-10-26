@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Weight Converter </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<table align="center">
+    <tr>
+        <td>
+           <h3>  Weight Converter </h3>
+           <b> From:</b><br>
+           <select id="fsi">
+               <option disabled="true" selected="true">-Select Weight-</option>
+               <option >Kilogram</option>
+               <option >Ounces</option>
+               <option >Gram</option>
+               <option >Pound</option>
+               <option >Stones</option>
+           </select>
+           <br><br>
+            <b> To:</b><br>
+           <select id="tsi">
+               <option disabled="true" selected="true">-Select Weight-</option>
+               <option >Kilogram</option>
+               <option >Ounces</option>
+               <option >Gram</option>
+               <option >Pound</option>
+               <option >Stones</option>
+           </select>
+           <br><br>
+           <b> Value: </b><br>
+               <input id="ip"  required="">
+            <br><br>
+            <button onclick="getInputValue();"> Convert </button>
+            <br>
+            <div>
+            <p id="ci"></p>
+            </div>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+
